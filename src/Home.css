@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+button {
+    width: 200px;
+    height: 30px;
+    gap: 40px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+button:hover {
+    background-color: blueviolet;
+    transition: .5s;
+    transition: ease-in .5s;
+}
+#boxs {
+    width: 100vh;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: block;
+    padding-top: 50%;
+    background-color:antiquewhite;
+    }
+
+    .number {
+        font-size: 40px;
+        font-weight: bold;
+        position: absolute;
+        top: 330px;
+        right: 630px;
+        
+    }

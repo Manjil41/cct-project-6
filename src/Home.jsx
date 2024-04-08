@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Home.css';
 
 export default function Home() {
     const [number, setNumber] = useState(0);
@@ -12,12 +13,12 @@ export default function Home() {
         setNumber(0);
     }
     return (
-        <>
+        <div id='boxs'>
             <button onClick={increament}>Increase</button>
             <button onClick={m}>Decrease</button>
             <button onClick={reset}>Reset</button>
-            <p>{number}</p>
-        </>
+            <p class='number'>{number}</p>
+        </div>
     );
 }
 
